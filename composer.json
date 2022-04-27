@@ -1,0 +1,15 @@
+{
+    "name": "olena/simple_docker",
+    "autoload": {
+        "psr-4": {
+            "Olena\\SimpleDocker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olena Chumak",
+            "email": "o.chumak@godeltech.com"
+        }
+    ],
+    "require": {}
+}

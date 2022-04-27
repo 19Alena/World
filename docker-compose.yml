@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  web:
+    container_name: simple_docker_web
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    ports:
+      - "8181:80"
+    volumes:
+      - .:/app/
+    links:
+      - php
+
+  php:
+    container_name: simple_docker_php
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    volumes:
+      - .:/app/
