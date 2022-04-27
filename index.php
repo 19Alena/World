@@ -1,6 +1,6 @@
 <?php
-namespace Olena\SimpleDocker;
-require 'vendor/autoload.php';
+//namespace Olena\SimpleDocker;
+//require 'vendor/autoload.php';
 
 class Template
 {
@@ -91,7 +91,7 @@ class FileErrorException extends Exception
 class Main
 {
 
-    const TEMPLATE = './view/template.tpl';
+    const TEMPLATE = './data/template.tpl';
     /**
      * @var array
      */

@@ -11,7 +11,7 @@
 <?= $content; ?>
 
 
-<script src="../script/script.js"></script>
+<script src="../script/form_input.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@ services:
       dockerfile: docker/nginx/Dockerfile
     ports:
       - "8181:80"
+
     volumes:
       - .:/app/
     links:
