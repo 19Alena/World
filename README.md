@@ -1,9 +1,9 @@
 # Application Hello World
-> This project read data from Form and display text from template file.
+> This project realised task in PHP.
 
 ## General Information
-This project implement a simple “Hello, World” application in PHP. 
-It render some HTML according to the template and display it to the user.
+Project implement a simple “Hello, World” application in PHP. 
+It renders some HTML according to the template and display it to the user.
 
 
 ## Technologies Used
